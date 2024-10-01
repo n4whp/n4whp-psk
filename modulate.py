@@ -39,5 +39,5 @@ def main(input_text):
     write('binary_modulation.wav', sample_rate, (wave * 32767).astype(np.int16))  # Save to WAV format
 
 # Example input text
-input_text = 'N4WHP CQ CQ CQ FM07RO      '
+input_text = input("Text: ")
 main(input_text)
