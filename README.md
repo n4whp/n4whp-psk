@@ -19,3 +19,10 @@ Operational Considerations: PSK-200 does not support sound cards for all forms o
     Mono Channel: Ensure the recording is in mono for simplicity and compatibility with the demodulation process.
 
 By adhering to these specifications, users can effectively receive and decode signals transmitted using the N4WHP-PSK mode.
+
+# TO-DO LIST 
+
+- Fix 21 character limit issue (Data currupts of 21 Characters)
+- Make a GUI based on QT 
+- Add radio connection, with a bias to work with only the DigiRig and other sound card like devices.
+   
